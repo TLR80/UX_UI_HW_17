@@ -1,0 +1,38 @@
+nav {
+    height: 50px;
+    text-align: center;
+    background-color: rosybrown;
+}
+.inline-block {
+    padding: 15px;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    height: 100px;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+}
+.right{
+    float: right;
+    background-color: white;
+    height: 200px;
+    width: 40%;
+    text-align: center;
+}
+.footer {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
